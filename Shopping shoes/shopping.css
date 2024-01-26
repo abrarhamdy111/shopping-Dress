@@ -1,0 +1,535 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+nav
+{
+    background-color: black;
+    color: white;
+}
+.navtop
+{
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.searchbutton
+{
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    padding-top: 5px;
+}
+.search
+{
+    position: absolute;
+    display: flex;
+    top: 15px;
+    left:600px ;
+
+}
+.inputsearch
+{
+    width: 260px;
+    height: 25px;
+}
+.logo
+{
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+.navtopittem
+{
+    margin-left: 1300px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+.limitedoffer
+{
+    cursor: pointer;
+    border-bottom: 3px solid green;
+
+}
+.inputsearch::placeholder
+{
+    color: black;
+}
+.navbottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuitem
+{
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+#m1:hover
+{
+    color: rgb(128, 206, 215);
+}
+#m2:hover
+{
+    color: rgb(128, 206, 215);
+}
+#m3:hover
+{
+    color: rgb(128, 206, 215);
+}#m4:hover
+{
+    color: rgb(128, 206, 215);
+}#m5:hover
+{
+    color: rgb(128, 206, 215);
+}
+.container
+{
+    background: url(../Shoppingsho/img/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   clip-path: polygon(0 0 ,100% 0 ,100% 100% , 0 85%);
+}
+.slider
+{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+}
+.slideritem
+{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidertitle
+{
+    position: absolute;
+    left:  2%;
+    top: 17%;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+.sliderprice
+{
+    position: absolute;
+    right: 15%;
+    top: 26%;
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 20px;
+}
+.buybutton
+{
+    position: absolute;
+    right: 22%;
+    top: 57%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.buybutton:hover
+{
+    background-color: cadetblue;
+    color: black;
+}
+.sliderimg
+{
+    position: relative;
+    top: 3%;
+    z-index: 2;
+}
+.sliderbg
+{
+    position: absolute;
+    width:560px;
+    height: 560px;
+    border-radius: 50%;
+    top: 7px;
+}
+/**********************************************************/
+/**********************************************************/
+
+.slideritem:nth-child(1) .sliderbg
+{
+    background-color:rgb(56, 104, 106);
+}
+.slideritem:nth-child(2) .sliderbg
+{
+    background-color:rgb(34, 116, 165);;
+}
+.slideritem:nth-child(3) .sliderbg
+{
+    background-color:rgb(209, 96, 20);
+}
+.slideritem:nth-child(4) .sliderbg
+{
+    background-color:rgb(142, 203, 229);
+}
+.slideritem:nth-child(5) .sliderbg
+{
+    background-color:rgb(163, 180, 162);
+}
+/**********************************************************/
+/**********************************************************/
+
+.slideritem:nth-child(1) .buybutton:hover
+{
+    background-color:rgb(243, 239, 231);
+    color: black;
+}
+.slideritem:nth-child(2) .buybutton:hover
+{
+    background-color:rgb(243, 239, 231);
+    color: black;
+}
+.slideritem:nth-child(3) .buybutton:hover
+{
+    background-color:rgb(243, 239, 231);
+    color: black;
+}
+.slideritem:nth-child(4) .buybutton:hover
+{
+    background-color:rgb(243, 239, 231);
+    color: black;
+}
+.slideritem:nth-child(5) .buybutton:hover
+{
+    background-color:rgb(243, 239, 231);
+    color: black;
+}
+/**********************************************************/
+/**********************************************************/
+.slideritem:nth-child(1) .sliderprice
+{
+    border: 4px solid rgb(34, 116, 165);
+}
+.slideritem:nth-child(2) .sliderprice
+{
+    border: 4px solid rgb(34, 116, 165);
+}
+.slideritem:nth-child(3) .sliderprice
+{
+    border: 4px solid rgb(34, 116, 165);
+}
+.slideritem:nth-child(4) .sliderprice
+{
+    border: 4px solid rgb(34, 116, 165);
+}
+.slideritem:nth-child(5) .sliderprice
+{
+    border: 4px solid rgb(34, 116, 165);
+}
+/**********************************************************/
+/**********************************************************/
+
+.features
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.featur
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.featuricon
+{
+    width: 50px;
+    height: 50px;
+}
+.featuretitle
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px;
+}
+.featuredeasc
+{
+    color: gray;
+    width: 120px;
+    height: 100px;
+}
+.products
+{
+    height: 100vh;
+    background-color:rgb(227, 241, 241);
+    position: relative;
+    clip-path: polygon(0 15% ,100% 0 ,100% 100% , 0% 100%);
+}
+.productimg
+{
+    position: relative;
+    left: 50px;
+    top: 150px;
+    width: 30%;
+}
+.productdatailes
+{
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    right: 0;
+    padding: 50px;
+}
+.productTitle
+{
+    font-size: 75px;
+    font-weight: 900;
+}
+.productDescription
+{
+    font-size: 24px;
+    color: gray;
+}
+.colors,.sizes
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.color
+{
+    width: 32px;
+    height: 32px;
+    border-radius:5px ;
+    background-color: black;
+    margin-right: 10px;
+}
+.color:last-child
+{
+    background-color: darkblue;
+}
+.size
+{
+    padding: 5px 20px;
+    border: 1px solid black ;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.productbutton
+{
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.productbutton:hover
+{
+    background-color: rgb(117, 183, 185);
+    color: black;}
+
+.payment
+{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto ;
+    padding: 10px 50px;
+    display: none;
+    flex-direction: column;
+    -webkit-box-shadow: 5px -5px 6px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px -5px 6px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px -5px 6px -1px rgba(0,0,0,0.75);
+
+}
+.paytitle
+{
+    font-size: 20px;
+    color: lightgray;
+}
+label
+{
+    font-size: 14px;
+    font-weight: 300;
+}
+.payinput
+{
+    padding: 10px;
+    margin:10px 0px ;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.payinput::placeholder
+{
+    color:lightgray ;
+}
+.cardicons
+{
+    display: flex;
+}
+.cardicon
+{
+    margin-right: 10px;
+}
+.cardinfo
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sm
+{
+    width: 30%;
+}
+.paybutton
+{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 5px -5px 6px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px -5px 6px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px -5px 6px -1px rgba(0,0,0,0.75);
+    background-color:#369e62 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.close
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.gallery
+{
+    padding: 50px;
+    display: flex;
+}
+.galleryitem
+{
+    flex:1 ;
+    padding: 50px;
+}
+.galleryimg
+{
+    width: 100%;
+}
+.gallerytitle
+{
+    text-align: center;
+}
+.newseason
+{
+    display: flex;
+}
+.nsitem
+{
+   flex:1;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.nsimg
+{
+    width: 100%;
+    height: 500px;
+}
+.nstitle
+{
+    font-size: 40px;
+}
+.nsbutton
+{
+    padding: 15px;
+    font-weight: 600;
+}
+footer
+{
+    display: flex;
+}
+.footerleft
+{
+    flex:2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footerRight
+{
+    flex:1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fmenutitle
+{
+    font-size: 16px;
+}
+.fmenulist
+{
+    padding: 0;
+    list-style: none;
+}
+.flistitem
+{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.finput
+{
+    padding: 5px;
+}
+.fbutton
+{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.ficons
+{
+    display: flex;
+}
+.ficon
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.copyright
+{
+    font-weight: 300;
+    font-size: 14px;
+}
